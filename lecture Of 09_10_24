@@ -1,0 +1,20 @@
+#function with no parameters and does not return a value
+def printMessage():
+    print("Hello, i just print and do not return a value")
+
+printMessage()
+
+def printMessageWithParameterss(value1, value2):
+    print("Here is my first parameter {} with my second parameter {}".format(value1, value2))
+
+printMessageWithParameterss(5, 6)
+toto = "mamas"
+verga = 'pito'
+printMessageWithParameterss(toto, verga)
+
+def sumItUp(value1, value2):
+    asnwer = value1 + value2
+    return asnwer
+
+mySum = sumItUp(5, 4)
+print('mySum now has the value of', mySum)
